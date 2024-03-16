@@ -1,2 +1,1 @@
-a = int(input())
-print(4*a)
+print(4*int(input()))
