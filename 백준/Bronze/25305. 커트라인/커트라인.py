@@ -1,9 +1,7 @@
 a,b = map(int,input().split())
 score = list(map(int,input().split()))
-price = []
 
-for _ in range(b):
-    price.append(max(score))
-    score.remove(max(score))
+score.sort()
+score.reverse()
 
-print(price[-1])
+print(score[b-1])
