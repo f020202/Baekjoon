@@ -9,3 +9,6 @@ for value in arr2:
         print(1, end=" ")
     else:
         print(0, end=" ")
+
+# arr2의 원소가 arr1에 있는지 찾는것
+# arr1을 돌아야함... => arr1이 set이면 된다??
