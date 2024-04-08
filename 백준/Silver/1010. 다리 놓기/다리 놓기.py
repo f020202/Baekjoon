@@ -9,5 +9,5 @@ def C(n,r):
 n = int(input())
 
 for _ in range(n):
-    west, east = map(int,input().split())
-    print(C(east,west))
+    W, E = map(int,input().split())
+    print(C(E,W))
