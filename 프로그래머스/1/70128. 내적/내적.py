@@ -1,5 +1,5 @@
 def solution(a, b):
     sum = 0
-    for i in range(len(a)):
-        sum += a[i] * b[i]
+    for x,y in zip(a,b):
+        sum += x*y
     return sum
